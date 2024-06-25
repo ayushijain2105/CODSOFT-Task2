@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO BY AYUSHI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/90231a3693.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>CODE . <span>CREATE</span> . CONQUER <br>Hi, <br>I'm <span>Ayushi Jain</span></h1> 
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------about---------z----------------------------------------->
+    <div id="about"> 
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="aboutme3.jpg"height="600">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="Sub-title">About Me</h1>
+                    <p>I am Ayushi an enthusiastic second-year B.Tech Computer Science student with a deep passion for technology and coding. I thrive on honing my programming skills, frequently challenging myself on platforms like CodeChef, HackerRank, LeetCode, and Hyperskill. <br> My goal is to apply my knowledge in real-world scenarios, gaining invaluable hands-on experience in the tech industry. I am actively seeking opportunities that foster learning and growth, allow collaboration with like-minded individuals, and contribute to impactful projects.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')"><b>Skills</b></p>
+                        <p class="tab-links" onclick="opentab('Experience')"><b>Experience</b></p>
+                        <p class="tab-links" onclick="opentab('Education')"><b>Education</b></p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing web interfaces and web pages</li>
+                            <li><span>Python Developer</span><br>Designing and coding, deploying project in Python</li>
+                            <li><span>C Developer</span><br>Designing and coding, deploying projects in C Language</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024-Current:</span><br>Web Development Intern at Codsoft<br></li>
+                            <li><span>2024-Current:</span><br>Python Developer Intern at Interpe</li>
+                            <li><span>Particiapted in 3+ Hackathons:</span><br>In-Campus Hackathons</li>
+                            <li><span>Actively Participating in Contests and Practicing Languages:</span><br>Codechef, Hackerank, Leetcode</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2023-2027</span><br>BTECH from GLA University</li>
+                        <li><span>2009-2023(School)</span><br>St.Conrads Inter College,Agra</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------------------------------------------Skills----------------------------------------------------->
+<div id="skills">
+    <div class="container">
+        <h1 class="Sub-title">My Skills</h1>
+        <div class="skills-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2><b>Web Development</b></h2>
+                <br>
+                <p>Web development is a versatile and in-demand skill involving the creation and maintenance of websites and web applications. It requires proficiency in languages like HTML, CSS, JavaScript, and often includes backend technologies such as Python, Ruby, or Node.js.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2><b>Python Development</b></h2>
+                <br>
+                <p>Python development involves creating applications using Python, a versatile and easy-to-learn programming language known for its readability and broad library support. It is widely used in web development, data analysis, machine learning, automation, and more.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2><b>C Development</b></h2>
+                <br>
+                <p>C development involves writing software using the C programming language, known for its efficiency and control over system resources. It is fundamental for system programming, embedded systems, and performance-critical applications.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+<!---------------------------------------------------------------MY work------------------------------------------------------------>
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="cal.jpg" height="400">
+                <div class="layer">
+                    <h3>CALCULATOR</h3>
+                    <p>I created a dynamic calculator using HTML, CSS, and JavaScript, providing a user-friendly interface for performing basic arithmetic operations. This project showcases my skills in web development and interactive UI design.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="digi.jpg" height="400">
+                <div class="layer">
+                    <h3>Digital Clock</h3>
+                    <p> This project creates a digital clock using Python's `tkinter` library, featuring a real-time display with a bold, customizable interface. It demonstrates practical GUI application development and real-time updates in Python.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="land.jpg" height="400">
+                <div class="layer">
+                    <h3>Landing Page</h3>
+                    <p>I made a Landing page, AyushiWebJ is a web development-focused landing page created using HTML and CSS, showcasing my skills and projects in crafting modern, responsive websites.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See more</a>
+    </div>
+</div>
+  <!------------------------------------------------------------------------RESUME------------------------------------------------------------>
+<div id="resume">
+    <div class="container">
+        <h1 class="sub-title"><h1>Download My Resume</h1>
+        <div class="resume">
+        <a href="https://drive.google.com/file/d/1Fkd7iG3QmQPzDMyOPaur26FHsDchabTI/view?usp=drivesdk" download="Ayushi_Resume.pdf">
+            <img src="resume-icon-png-2.png" height="400">
+        </a>
+        </div>
+        
+    </div>
+</div>
+<!----------------------------------------------------------contact--------------------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class=""sub-title>Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ayushijainj095@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>7247832771</p>
+                <div class="social-icons">
+                    <a href="www.linkedin.com/in/ayushi-jain-993091291"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_ayushijain?igsh=MWhxcHdzaWZhNjhybw=="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Protected by Creativity: All Rights Reserved © Ayushi.</p>
+
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwWzvcsZS0kNKKA4TCKSuoFyTO7-tR9eg_RzIXQ_HovA1ZqBecR_1yugrCsD1DQGPp-qw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>  
